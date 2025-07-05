@@ -1,0 +1,6 @@
+{% for post in posts %}
+  <h2><a href="{% url 'post_detail' post.id %}">{{ post.title }}</a></h2>
+  <p>{{ post.content|truncatewords:20 }}</p>
+  <p>Likes: {{ post.likes.count }}</p>
+  <hr>
+{% endfor %}
