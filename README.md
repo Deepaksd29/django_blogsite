@@ -11,7 +11,7 @@ If you don't already have `uv` installed, install it using:
 ```bash
 curl -Ls https://astral.sh/uv/install.sh | sh
 
-```bash
+
  
 uv run
 streamlit run main.py
